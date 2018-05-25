@@ -1,16 +1,16 @@
 package com.i2.entity;
 
 public class Step {
-    public  String step_id;
-    public  String step_name;
-    public  String step_desc;
-    public  String step_type;
-    public  String step_module;
-    public  String step_ref;
-    public  String step_matches;
-    public  String step_args;
-    public  String lst_update_date;
-    public  String lst_update_user;
+    private   String step_id;
+    private  String step_name;
+    private  String step_desc;
+    private  String step_type;
+    private  String step_module;
+    private  String step_ref;
+    private  String step_matches;
+    private  String step_args;
+    private  String lst_update_date;
+    private  String lst_update_user;
 
     public String getStep_id() {
         return step_id;

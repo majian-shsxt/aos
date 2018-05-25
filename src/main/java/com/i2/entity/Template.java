@@ -1,12 +1,12 @@
 package com.i2.entity;
 
 public class Template {
-    public Integer template_id;
-    public String template_name;
-    public String template_desc;
-    public String template_flowcontent;
-    public String lst_update_date;
-    public String lst_update_user;
+    private Integer template_id;
+    private String template_name;
+    private String template_desc;
+    private String template_flowcontent;
+    private String lst_update_date;
+    private String lst_update_user;
 
     public Integer getTemplate_id() {
         return template_id;
